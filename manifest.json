@@ -1,0 +1,11 @@
+{
+    "name": "Cric Flash",
+    "version": "1.0.0",
+    "description": "This chrome extension provides you the real time data of ongoing Cricket match.",
+    "manifest_version": 3,
+    "author": "Aman",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Cric Flash"
+    }
+}
