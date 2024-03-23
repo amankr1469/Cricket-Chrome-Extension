@@ -1,4 +1,4 @@
-# Foobar
+# Cric Flash
 
 This Chrome extension provides you with real-time data on ongoing T20 Cricket matches.
 
