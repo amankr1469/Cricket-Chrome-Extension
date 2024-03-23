@@ -8,7 +8,7 @@ console.log(data);
 
         if(!matchList) return [];
 
-        const IPLData = matchList.filter(match => match.id == "cc375edb-7c82-429c-96bd-148fd9e1eb1e").map(match => `${match.name}, ${match.status}`);
+        const IPLData = matchList.filter(match => match.matchType == "t20").map(match => `${match.name}, ${match.status}`);
         console.log(IPLData);
         document.getElementById("matches").innerHTML = IPLData.map(match => `<li>${match}</li>`).join();
 
